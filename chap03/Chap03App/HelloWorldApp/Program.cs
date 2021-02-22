@@ -1,15 +1,12 @@
 ﻿using System;
 
-namespace Chap03App
+namespace HelloWorldApp
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // Comment
-            Console.WriteLine("Hello World~!");
-
-            return;
+            Console.WriteLine("Hello World! From .NETCore");
         }
     }
 }
