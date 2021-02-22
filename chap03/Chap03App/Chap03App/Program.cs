@@ -10,6 +10,10 @@ namespace Chap03App
     {
         static void Main(string[] args)
         {
+            // Comment
+            Console.WriteLine("Hello World~!");
+
+            return;
         }
     }
 }
