@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap04App", "Chap04App\Chap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncDecTestApp", "IncDecTestApp\IncDecTestApp.csproj", "{AA267184-24B7-4F22-A447-888F5C5C9731}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringConcatApp", "StringConcatApp\StringConcatApp.csproj", "{4671C708-7E54-4789-B202-87DEFA76A784}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AA267184-24B7-4F22-A447-888F5C5C9731}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA267184-24B7-4F22-A447-888F5C5C9731}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA267184-24B7-4F22-A447-888F5C5C9731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4671C708-7E54-4789-B202-87DEFA76A784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4671C708-7E54-4789-B202-87DEFA76A784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4671C708-7E54-4789-B202-87DEFA76A784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4671C708-7E54-4789-B202-87DEFA76A784}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
