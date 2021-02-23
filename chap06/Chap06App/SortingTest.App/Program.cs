@@ -30,8 +30,21 @@ namespace SortingTestApp
                 int *p = (int *) &x;
                 for (int i = 0; i < 64; i++)
                 {
-                    int tmp = ((*p) & (1 << (63 - i)) != 0) ? 1 : 0;
-
+                    int tmp = ((*p) & (1 << (63 - i)));
+                    if (tmp != 0)
+                        Console.Write("1");
+                    else
+                        Console.Write("0");
+                }
+                Console.WriteLine("");
+                p = (int*)&y;
+                for (int i = 0; i < 64; i++)
+                {
+                    int tmp = ((*p) & (1 << (63 - i)));
+                    if (tmp != 0)
+                        Console.Write("1");
+                    else
+                        Console.Write("0");
                 }
                 Console.WriteLine("");
 
