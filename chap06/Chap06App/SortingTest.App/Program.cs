@@ -20,34 +20,34 @@ namespace SortingTestApp
             // double y = 3.12352f;
 
             unsafe
-            {
-                double x = 4.28d;
-                double y = 3.12352d;
+            {   
+                Console.WriteLine($"{sizeof(char *)}");
+                Console.WriteLine($"{sizeof(byte *)}");
+                Console.WriteLine($"{sizeof(short *)}");
+                Console.WriteLine($"{sizeof(int *)}");
+                Console.WriteLine($"{sizeof(long *)}");
+                Console.WriteLine($"{sizeof(long)}");
+
+                double x = 2.0d;
+                double y = 3.14d;
 
                 long x_ = *((long *) &x);
                 long y_ = *((long *) &y);
 
-                int *p = (int *) &x;
+                // double 내부 메모리 (비트) 출력
+                int * p = (int *) &y;
                 for (int i = 0; i < 64; i++)
                 {
-                    int tmp = ((*p) & (1 << (63 - i)));
-                    if (tmp != 0)
-                        Console.Write("1");
-                    else
-                        Console.Write("0");
-                }
-                Console.WriteLine("");
-                p = (int*)&y;
-                for (int i = 0; i < 64; i++)
-                {
-                    int tmp = ((*p) & (1 << (63 - i)));
-                    if (tmp != 0)
-                        Console.Write("1");
-                    else
-                        Console.Write("0");
-                }
-                Console.WriteLine("");
+                    int tmp = *((p + ((63 - i)/32))) & (1 << (63 - i));
+                        if (tmp != 0)
+                            Console.Write("1");
+                        else
+                            Console.Write("0");
 
+                        if ((i + 1) == 1 || (i + 1) == 11 + 1)
+                            Console.Write(" ");
+                }
+                Console.WriteLine("");
                 x_ = x_ ^ y_;
                 y_ = x_ ^ y_;
                 x_ = x_ ^ y_;
