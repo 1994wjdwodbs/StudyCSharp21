@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap07App", "Chap07App\Chap07App.csproj", "{74006AFE-8ABF-4C57-AD36-05C9D3427E4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap07App", "Chap07App\Chap07App.csproj", "{74006AFE-8ABF-4C57-AD36-05C9D3427E4D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTestApp", "CalcTestApp\CalcTestApp.csproj", "{2282096F-74AB-44C6-8AFC-DAD491077F3C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticTestApp", "StaticTestApp\StaticTestApp.csproj", "{FD6B625D-89BD-431B-A42B-23375AFCAEDD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifierTestApp", "AccessModifierTestApp\AccessModifierTestApp.csproj", "{31FABF19-3C07-4ECF-A19C-40B06B0122B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritTestApp", "InheritTestApp\InheritTestApp.csproj", "{F7B587E6-91D0-45CE-BC2D-6313979FD448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassTypeCastApp", "ClassTypeCastApp\ClassTypeCastApp.csproj", "{840393C2-23A2-44FD-8ED6-E351D18CFE4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideTestApp", "OverrideTestApp\OverrideTestApp.csproj", "{9633D52B-C7F9-4769-836C-0A322DBB508F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClassApp", "PartialClassApp\PartialClassApp.csproj", "{8205561C-4689-408D-A78E-A5FD95383522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritConfirmApp", "InheritConfirmApp\InheritConfirmApp.csproj", "{4D49C30F-F0AE-41F9-AF1F-81A2F29C2B4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,26 @@ Global
 		{31FABF19-3C07-4ECF-A19C-40B06B0122B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31FABF19-3C07-4ECF-A19C-40B06B0122B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31FABF19-3C07-4ECF-A19C-40B06B0122B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B587E6-91D0-45CE-BC2D-6313979FD448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B587E6-91D0-45CE-BC2D-6313979FD448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B587E6-91D0-45CE-BC2D-6313979FD448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B587E6-91D0-45CE-BC2D-6313979FD448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{840393C2-23A2-44FD-8ED6-E351D18CFE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840393C2-23A2-44FD-8ED6-E351D18CFE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840393C2-23A2-44FD-8ED6-E351D18CFE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840393C2-23A2-44FD-8ED6-E351D18CFE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9633D52B-C7F9-4769-836C-0A322DBB508F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9633D52B-C7F9-4769-836C-0A322DBB508F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9633D52B-C7F9-4769-836C-0A322DBB508F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9633D52B-C7F9-4769-836C-0A322DBB508F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8205561C-4689-408D-A78E-A5FD95383522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8205561C-4689-408D-A78E-A5FD95383522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8205561C-4689-408D-A78E-A5FD95383522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8205561C-4689-408D-A78E-A5FD95383522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D49C30F-F0AE-41F9-AF1F-81A2F29C2B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D49C30F-F0AE-41F9-AF1F-81A2F29C2B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D49C30F-F0AE-41F9-AF1F-81A2F29C2B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D49C30F-F0AE-41F9-AF1F-81A2F29C2B4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
