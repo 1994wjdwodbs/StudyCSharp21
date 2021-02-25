@@ -16,6 +16,7 @@ namespace ClassTypeCastApp
 
     class 강아지 : 포유류
     {
+        public int x = 1;
         public void 멍멍()
         {
             Console.WriteLine("멍멍!");
@@ -47,14 +48,21 @@ namespace ClassTypeCastApp
                 쭈쭈.멍멍();
             }
 
+            // 포유류 x = new 강아지();
+            // 강아지 뽀삐 = (강아지) ;
             강아지 뽀삐 = null;
-            if (뽀삐 is 포유류)
+            뽀삐 = new 포유류() as 강아지;
+             뽀삐.키우다();
+            // 뽀삐.멍멍();
+            /*if (뽀삐 is 포유류)
             {
                 Console.WriteLine("이부분이 실행됩니다.");
                 뽀삐 = new 포유류() as 강아지;
                 뽀삐.키우다();
                 뽀삐.멍멍();
-            }
+                Console.WriteLine(뽀삐.x);
+            }*/
+
         }
     }
 }
