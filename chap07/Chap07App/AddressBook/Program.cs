@@ -439,6 +439,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             AddressBook book = new AddressBook();
+
             while (true)
                 book.Menu();
         }
