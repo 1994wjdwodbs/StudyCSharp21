@@ -20,7 +20,7 @@ namespace Chap10App
             array[2] = 81;
             array[3] = 90;
             array[4] = 34;
-
+            
             for (int i = 0; i < array.Length; i++)
                 Console.WriteLine($"{i}번째 값 : {array[i]}");
 
