@@ -38,6 +38,7 @@ namespace TryCatchFinallyApp
 
         private static Object Divide(int dividend, int divisor)
         {
+           
             // throw new NotImplementedException();
             if (divisor == 0)
                 throw new DivideByZeroException("제수 : 0 입력됨");
