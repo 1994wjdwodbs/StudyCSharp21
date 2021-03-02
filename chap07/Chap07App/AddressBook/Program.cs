@@ -526,6 +526,7 @@ namespace AddressBookApp
                     // outputFile.Close();
                 }
             }
+            // 파일이 존재하지 않으면 새로쓰기
             else
             {
                 using (StreamWriter outputFile = new StreamWriter(savePath))
