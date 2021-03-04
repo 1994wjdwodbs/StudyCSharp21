@@ -31,12 +31,22 @@ namespace TextFileApp
             }
 
             StreamReader sr = null;
-            sr = new StreamReader(new FileStream(filePath, FileMode.Open, FileAccess.Read));
-            Console.WriteLine($"File size : {sr.BaseStream.Length} bytes");
+            try
+            {
+                sr = new StreamReader(new FileStream(filePath, FileMode.Open, FileAccess.Read));
+                Console.WriteLine($"File size : {sr.BaseStream.Length} bytes");
 
-            while (sr.EndOfStream == false)
-                Console.WriteLine(sr.ReadLine());
-            sr.Close();
+                while (sr.EndOfStream == false)
+                    Console.WriteLine(sr.ReadLine());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"파일읽기 예외발생 : {ex.Message}");
+            }
+            finally
+            {
+                sr.Close();
+            }
 
         }
     }
