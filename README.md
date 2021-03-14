@@ -51,23 +51,43 @@ PKNU C# 학습 리포지토리
 [윈도우 폼 기초](chap20)
 
 ------------------------
-## Project (전화번호부 등록 콘솔 프로그램)
-
+## Project.1 (전화번호부 등록 콘솔 프로그램)
+설명 ~~~
 
 >>![결과1](ref_images/intro_page.png "전체 웹페이지")  
->>**- JALLERY 웹페이지에서 폴더를 선택하여 갤러리로 표현**
+>>**- Text **
 >     
 >           
 >     
 >>![결과2](ref_images/search_page.png "웹페이지 검색")  
->>**- JALLERY 웹페이지에서 "gif"을 검색 후 필터링하여 표현**
+>>**- Text **
 >   
 >   
 >     
 >>![결과3](ref_images/move_page.png "웹페이지 이동")  
->>**- JALLERY 웹페이지에서 이미지를 확대하고 좌우 방향키나 여백을 클릭하여 다음/이전 이미지로 이동**
+>>**- Text **
 >   
 >         
 >   
->[(JALLERY 웹페이지 소스)](04_PROJECT)
+>[(해당 프로젝트)](04_PROJECT)
+
+## Project.2 (Winform 사칙연산 표현식 계산 프로그램)
+설명 ~~~
+
+>>![결과1](ref_images/intro_page.png "전체 웹페이지")  
+>>**- Text **
+>     
+>           
+>     
+>>![결과2](ref_images/search_page.png "웹페이지 검색")  
+>>**- Text **
+>   
+>   
+>     
+>>![결과3](ref_images/move_page.png "웹페이지 이동")  
+>>**- Text **
+>   
+>         
+>   
+>[(해당 프로젝트)](04_PROJECT)
 
