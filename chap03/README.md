@@ -137,7 +137,6 @@ int?[] arr = new int?[10];
  (in, ref 및 out 매개 변수 제외, in, ref 및 out 매개 변수 한정자 참조)
  
  | class     |
-|-----------|
 | interface |
 | delegate  |
 | record    |
