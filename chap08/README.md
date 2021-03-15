@@ -50,6 +50,26 @@ public interface IStringList
 }
 ```
 
+__- 인터페이스 구현__
 
+인터페이스는 클래스 및 구조체에서 구현 될 수 있습니다. 클래스 또는 구조체를 직접 인터페이스를 구현 함을 나타내려면</br>
+인터페이스 식별자는 클래스 또는 구조체의 기본 클래스 목록에 포함 됩니다.
 
+```csharp
+interface ICloneable
+{
+    object Clone();
+}
+
+interface IComparable
+{
+    int CompareTo(object other);
+}
+
+class ListEntry: ICloneable, IComparable
+{
+    public object Clone() {...}
+    public int CompareTo(object other) {...}
+}
+```
 
