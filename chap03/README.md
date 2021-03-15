@@ -110,6 +110,7 @@ Console.WriteLine($"Sum of {t2.Count} elements is {t2.Sum}.");
 ```
 
 - NULL 허용 값 형식
+
 Null 허용 값 형식 T?는 기본 값 형식 T의 모든 값과 추가 null 값을 나타냅니다.</br> 
 예를 들어 bool? 변수에는 true, false, null 값 중 하나를 할당할 수 있습니다.</br>
 기본 값 형식 T는 null 허용 값 형식 자체일 수 없습니다.</br>
@@ -140,5 +141,13 @@ int?[] arr = new int?[10];
 | interface |
 | delegate  |
 | record    |
+
+## 형변환
+*Conversion _을 사용 하면 식을 특정 형식으로 처리할 수 있습니다. 변환으로 인해 지정 된 형식의 식이 다른 형식으로 처리 될 수 있거나 형식이 없는 식이 형식을 가져올 수 있습니다.</br>
+변환은 *암시적* 이거나 _ 명시적 * 일 수 있으며,이는 명시적 캐스트가 필요한 지 여부를 결정 합니다.
+
+- 암시적 변환
+
+- 명시적 변환
 
 [이전](https://github.com/1994wjdwodbs/StudyCSharp21)
