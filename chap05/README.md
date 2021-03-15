@@ -217,3 +217,5 @@ using 문은 획득, 사용 및 삭제의 세 부분으로 변환 됩니다. 리
 이 finally 절은 리소스를 삭제 합니다. null 리소스를 획득 하면 Dispose에 대 한 호출이 수행 되지 않고 예외가 throw 되지 않습니다.</br>
 리소스가 형식 dynamic 경우에는 사용 및 삭제 전에 변환이 성공적으로 수행 되도록 하기 위해 인수를 사용 하는 동안 암시적 동적 변환</br>
 (암시적 동적변환)을 통해 IDisposable으로 동적으로 변환 됩니다.
+
+[이전](https://github.com/1994wjdwodbs/StudyCSharp21)
