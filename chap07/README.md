@@ -231,8 +231,50 @@ constructor_body
 > Constructor_declaration 에는 특성 집합, 네 가지 액세스 한정자 (액세스 한정자)의 유효한 조합 및 extern (외부 메서드) 한정자가 포함 될 수 있습니다.</br>
 > 생성자 선언에는 동일한 한정자를 여러 번 포함할 수 없습니다.
 
+> __정적 생성자__
+> 
+> 정적 생성자 는 폐쇄형 클래스 형식을 초기화 하는 데 필요한 작업을 구현 하는 멤버입니다. 정적 생성자는 static_constructor_declarations를 사용하여 선언됩니다.
+
+```csharp
+static_constructor_declaration
+    : attributes? static_constructor_modifiers identifier '(' ')' static_constructor_body
+    ;
+
+static_constructor_modifiers
+    : 'extern'? 'static'
+    | 'static' 'extern'?
+    | static_constructor_modifiers_unsafe
+    ;
+
+static_constructor_body
+    : block
+    | ';'
+    ;
+```
+
+> Static_constructor_declaration 에는 특성 집합 (특성) 및 extern 한정자 (외부 메서드)가 포함 될 수 있습니다.
 
 __- 소멸자__
+
+소멸자는 클래스의 인스턴스를 소멸시키는 데 필요한 작업을 구현 하는 멤버입니다. 소멸자는 destructor_declaration를 사용하여 선언됩니다.
+
+```csharp
+destructor_declaration
+    : attributes? 'extern'? '~' identifier '(' ')' destructor_body
+    | destructor_declaration_unsafe
+    ;
+
+destructor_body
+    : block
+    | ';'
+    ;
+```
+
+> 소멸자는 매개 변수를 포함 하지 않아도 되므로 오버 로드 될 수 없으므로 클래스에는 최대 하나의 소멸자가 있을 수 있습니다.</br>
+> 소멸자는 자동으로 호출 되며 명시적으로 호출할 수 없습니다. 더 이상 코드가 해당 인스턴스를 사용할 수 없는 경우 인스턴스는 소멸 대상이 됩니다.</br>
+> 인스턴스의 소멸자 실행은 인스턴스가 소멸될 수 있게 된 후 언제든지 발생할 수 있습니다.</br>
+> 인스턴스가 소멸되면 가장 많이 파생 된 것부터 가장 많이 파생 된 것부터 순서대로 해당 인스턴스의 상속 체인에 있는 소멸자가 호출됩니다.</br>
+> 소멸자는 모든 스레드에서 실행할 수 있습니다.
 
 __- 클래스 한정자__
 
