@@ -73,7 +73,7 @@ PKNU C# 학습 리포지토리
 >   
 >[(해당 프로젝트)](MINI_PROJECT)
 
-## Project.2 (Winform 사칙연산 표현식 계산 프로그램)
+## Project.2 (🧮Winform 사칙연산 표현식 계산 프로그램)
 List, Stack을 이용하여 중위(infix)식 구조에 연산자와 값을 분리하여 삽입하고</br>
 후위(postfix)식 구조로 변환하여 계산하는 윈폼 계산기 입니다. </br>
 - 기본 사칙연산, CE(Clear Entry) 제공 
