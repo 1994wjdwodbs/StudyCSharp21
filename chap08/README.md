@@ -34,7 +34,21 @@ interface_member_declaration
 
 인터페이스 선언 0 개 이상의 멤버를 선언할 수 있습니다. 메서드, 속성, 이벤트 또는 인덱서는 인터페이스의 멤버 여야 합니다.</br>
 인터페이스는 상수, 필드, 연산자, 인스턴스 생성자, 소멸자 또는 형식을 포함할 수 없으며 인터페이스로 모든 종류의 정적 멤버를 포함할 수 있습니다.</br>
-모든 인터페이스 멤버는 암시적으로 공용 액세스를 갖습니다. 특히 한정자를 사용하여 인터페이스 멤버를 선언할 수 없습니다. (
+모든 인터페이스 멤버는 암시적으로 공용 액세스를 갖습니다. 특히 한정자를 사용하여 인터페이스 멤버를 선언할 수 없습니다.</br>
+(abstract, public, protected, internal, private, virtual override, static)
+
+```csharp
+// 예시
+public delegate void StringListEvent(IStringList sender);
+
+public interface IStringList
+{
+    void Add(string s);
+    int Count { get; }
+    event StringListEvent Changed;
+    string this[int index] { get; set; }
+}
+```
 
 
 
