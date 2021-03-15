@@ -39,6 +39,9 @@
 - 배열
 배열 데이터 구조에 형식이 동일한 변수를 여러 개 저장할 수 있습니다. 요소의 형식을 지정하여 배열을 선언합니다. 
 배열이 모든 형식의 요소를 저장하도록 하려는 경우 object를 해당 형식으로 지정할 수 있습니다. 
-C#의 통합 형식 시스템에서 모든 형식(사전 정의되거나 사용자 정의된 형식, 참조 형식, 값 형식)은 Object에서 직접 또는 간접적으로 상속합니다.
+C#의 통합 형식 시스템에서 모든 형식(사전 정의되거나 사용자 정의된 형식, 참조 형식, 값 형식)은 Object에서 직접 또는 간접적으로 상속합니다.</br>
 (https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/arrays/)
+```csharp
+type[] arrayName;
+```
 [이전](https://github.com/1994wjdwodbs/StudyCSharp21)
