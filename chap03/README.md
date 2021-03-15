@@ -1,5 +1,6 @@
 # C# 기초
-microsoft C# 가이드를 참고하였습니다.
+microsoft C# 가이드를 참고하였습니다.</br>
+(https://docs.microsoft.com/ko-kr/dotnet/csharp/)
 
 ## 기본 자료형
 - 정수형
@@ -85,13 +86,46 @@ public struct Coords
 
 배열 데이터 구조에 형식이 동일한 변수를 여러 개 저장할 수 있습니다. 요소의 형식을 지정하여 배열을 선언합니다.</br>
 배열이 모든 형식의 요소를 저장하도록 하려는 경우 object를 해당 형식으로 지정할 수 있습니다.</br>
-C#의 통합 형식 시스템에서 모든 형식(사전 정의되거나 사용자 정의된 형식, 참조 형식, 값 형식)은 Object에서 직접 또는 간접적으로 상속합니다.</br>
-(https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/arrays/)
+C#의 통합 형식 시스템에서 모든 형식(사전 정의되거나 사용자 정의된 형식, 참조 형식, 값 형식)은 Object에서 직접 또는 간접적으로 상속합니다.
+
 ```csharp
 type[] arrayName;
 ```
  
+ - 튜플 형식
 
+C# 7.0 이상에서 사용할 수 있는 ‘튜플’ 기능은 간단한 데이터 구조로 여러 데이터 요소를 그룹화하는 간결한 구문을 제공합니다.</br>
+다음 예제에서는 튜플 변수를 선언하고 초기화하며 관련 데이터 멤버에 액세스하는 방법을 보여 줍니다.
 
+```csharp
+(double, int) t1 = (4.5, 3);
+Console.WriteLine($"Tuple with elements {t1.Item1} and {t1.Item2}.");
+// Output:
+// Tuple with elements 4.5 and 3.
+
+(double Sum, int Count) t2 = (4.5, 3);
+Console.WriteLine($"Sum of {t2.Count} elements is {t2.Sum}.");
+// Output:
+// Sum of 3 elements is 4.5.
+```
+
+- NULL 허용 값 형식
+Null 허용 값 형식 T?는 기본 값 형식 T의 모든 값과 추가 null 값을 나타냅니다.</br> 
+예를 들어 bool? 변수에는 true, false, null 값 중 하나를 할당할 수 있습니다.</br>
+기본 값 형식 T는 null 허용 값 형식 자체일 수 없습니다.</br>
+(C# 7.0부터 is형식 패턴 포함 연산자를 사용하여 null 허용 값 형식의 인스턴스에서 null 여부를 검사하고 기본 형식의 값을 검색할 수 있습니다.)
+
+```csharp
+double? pi = 3.14;
+char? letter = 'a';
+
+int m2 = 10;
+int? m = m2;
+
+bool? flag = null;
+
+// An array of a nullable value type:
+int?[] arr = new int?[10];
+```
 
 [이전](https://github.com/1994wjdwodbs/StudyCSharp21)
