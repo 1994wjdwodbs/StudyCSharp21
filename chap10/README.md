@@ -195,12 +195,12 @@ __- 클래스__
     
 __- 구조체__
 
-구조체
 > __- Dictionary<TKey,TValue>.Enumerator__</br>
 > Dictionary<TKey,TValue>의 요소를 열거합니다.
 
 > __- Dictionary<TKey,TValue>.KeyCollection.Enumerator__</br>
 > Dictionary<TKey,TValue>.KeyCollection의 요소를 열거합니다.
+
 > __- Dictionary<TKey,TValue>.ValueCollection.Enumerator__</br>
 > Dictionary<TKey,TValue>.ValueCollection의 요소를 열거합니다.
 
