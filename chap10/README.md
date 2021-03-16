@@ -140,44 +140,85 @@ System.Collections.Generic 네임스페이스에는 몇 가지 제네릭 기반 
 
 __- 클래스__
 
-> __- ArrayList__
+> __- ArrayList__</br>
 > 필요에 따라 크기가 동적으로 증가하는 배열을 사용하여 IList 인터페이스를 구현합니다.
 
-> __- BitArray__
+> __- BitArray__</br>
 > 부울로 나타나는 간단한 비트 값 배열을 관리합니다. 여기에서 true는 비트가 설정(1)되었음을</br>
 >  나타내고 false는 비트가 해제(0)되었음을 나타냅니다.
 
-> __- CaseInsensitiveComparer__
+> __- CaseInsensitiveComparer__</br>
 > 문자열의 대/소문자를 무시하고 두 개체를 비교합니다.
  
-> __- CaseInsensitiveHashCodeProvider__
+> __- CaseInsensitiveHashCodeProvider__</br>
 > 문자열의 대/소문자를 구분하지 않는 해시 알고리즘을 사용하여 개체에 대해 해시 코드를 제공합니다.
 
-> __- CollectionBase__
+> __- CollectionBase__</br>
 > 강력한 형식의 컬렉션에 대한 abstract 기본 클래스를 제공합니다.
 
-> __- Comparer__
+> __- Comparer__</br>
 > 문자열의 대/소문자를 구분하여 두 개체를 비교합니다.
 
-> __- DictionaryBase__
+> __- DictionaryBase__</br>
 > 강력한 형식의 키/값 쌍 컬렉션에 대한 abstract 기본 클래스를 제공합니다.
-> __- Hashtable__
+
+> __- Hashtable__</br>
 > 키의 해시 코드에 따라 구성된 키/값 쌍의 컬렉션을 나타냅니다.
 
-> __- Queue__
+> __- Queue__</br>
 > 개체의 선입선출(FIFO) 컬렉션을 나타냅니다.
 
-> __- ReadOnlyCollectionBase__
+> __- ReadOnlyCollectionBase__</br>
 > 제네릭이 아닌 강력한 형식의 읽기 전용 컬렉션의 abstract 기본 클래스를 제공합니다.
 
-> __- SortedList__
+> __- SortedList__</br>
 > 키를 기준으로 정렬되고 키와 인덱스로 액세스할 수 있는 키/값 쌍의 컬렉션을 나타냅니다.
 
-> __- Stack__
+> __- Stack__</br>
 > 제네릭이 아닌 개체의 간단한 LIFO(Last In First Out: 마지막에 들어간 것부터 사용) 컬렉션을 나타냅니다.
 
-> __- StructuralComparisons__
+> __- StructuralComparisons__</br>
 두 컬렉션 개체의 구조를 비교하기 위한 개체를 제공합니다.
+
+__- 구조체__
+
+> __- DictionaryEntry__</br>
+> 설정하거나 검색할 수 있는 사전 키/값 쌍을 정의합니다.
+
+__- 인터페이스__
+
+> __- ICollection__</br>
+> 제네릭이 아닌 모든 컬렉션에 대한 크기, 열거자 및 동기화 메서드를 정의합니다.
+
+> __- IComparer__</br>
+> 두 개체를 비교하는 메서드를 노출합니다.
+
+> __- IDictionary__</br>
+> 키/값 쌍의 제네릭이 아닌 컬렉션을 나타냅니다.
+
+> __- IDictionaryEnumerator__</br>
+> 제네릭이 아닌 사전의 요소를 열거합니다.
+
+> __- IEnumerable__</br>
+> 제네릭이 아닌 컬렉션에서 단순하게 반복할 수 있도록 지원하는 열거자를 노출합니다.
+
+> __- IEnumerator__</br>
+> 제네릭이 아닌 컬렉션을 단순하게 반복할 수 있도록 지원합니다.
+
+> __- IEqualityComparer__</br>
+> 개체가 같은지 비교할 수 있는 메서드를 정의합니다.
+
+> __- IHashCodeProvider__</br>
+> 사용자 지정 해시 함수를 사용하여 개체에 해시 코드를 제공합니다.
+
+> __- IList__</br>
+> 인덱스로 각각 액세스할 수 있는 제네릭이 아닌 개체 컬렉션을 나타냅니다.
+
+> __- IStructuralComparable__</br>
+> 컬렉션 개체의 구조 비교를 지원합니다.
+
+> __- IStructuralEquatable__</br>
+> 개체의 구조가 같은지 비교할 수 있는 메서드를 정의합니다.
 
 
 ### System.Collections.Generic 네임스페이스
