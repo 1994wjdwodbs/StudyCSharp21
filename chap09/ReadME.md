@@ -19,3 +19,28 @@ __- 프로퍼티 선언__
 > 
 > 프로퍼티는 __읽기/쓰기(read-write)__ (get 및 set 접근자 모두 포함), __읽기 전용(read_only)__ (get 접근자는 포함하지만 set 접근자는 포함 안 함)</br>
 > 또는 __쓰기 전용(write-only)__ (set 접근자는 포함하지만 get 접근자는 포함 안 함)일 수 있습니다.</br> 쓰기 전용 프로퍼티는 거의 사용 빈도가 적고, 주로 중요한 데이터에 대한 액세스를 제한하는 데 사용됩니다.
+
+```csharp
+// Property 예제
+using System;
+
+public class SaleItem
+{
+   public string Name
+   { get; set; }
+
+   public decimal Price
+   { get; set; }
+}
+
+class Program
+{
+   static void Main(string[] args)
+   {
+      var item = new SaleItem{ Name = "Shoes", Price = 19.95m };
+      Console.WriteLine($"{item.Name}: sells for {item.Price:C2}");
+   }
+}
+// The example displays output like the following:
+//       Shoes: sells for $19.95
+```
