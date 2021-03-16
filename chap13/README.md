@@ -5,3 +5,6 @@ microsoft C# 가이드, 닷넷정복(책)을 참고하였습니다.</br>
 
 ## 대리자
 대리자(delegate)는
+
+
+[이전](https://github.com/1994wjdwodbs/StudyCSharp21)
