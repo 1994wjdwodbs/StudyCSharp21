@@ -372,4 +372,6 @@ __- 인터페이스__
     
 > __- ISet<T>__</br>
 > 집합 추상화를 위한 기본 인터페이스를 제공합니다.
-    
+
+
+[이전](https://github.com/1994wjdwodbs/StudyCSharp21)
