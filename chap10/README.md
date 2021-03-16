@@ -125,6 +125,9 @@ __- 제너릭 개요__
 System.Collections.Generic 네임스페이스에는 몇 가지 제네릭 기반 컬렉션 클래스가 있습니다.</br>
 (ArrayList와 같은 제네릭이 아닌 컬렉션은 권장되지 않으며 호환성을 위해 유지 관리됩니다.)
 
+## 컬렉션
+컬렉션(Collection)이란 
+
 
 ### System.Collections.Generic 네임스페이스
 
