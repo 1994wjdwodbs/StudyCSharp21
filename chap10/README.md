@@ -167,11 +167,9 @@ __- 클래스__
 > LinkedList<T>의 노드를 나타냅니다. 이 클래스는 상속될 수 없습니다.
     
 > __- List<T>__
-> 
 > 인덱스로 액세스할 수 있는 강력한 형식의 개체 목록을 나타냅니다. 목록의 검색, 정렬 및 조작에 사용할 수 있는 메서드를 제공합니다.
     
 > __- Queue<T>__
-> 
 > 개체의 선입선출(FIFO) 컬렉션을 나타냅니다.
     
 > __- ReferenceEqualityComparer__</br>
@@ -195,4 +193,34 @@ __- 클래스__
 > __- Stack<T>__</br>
 > 지정한 동일 형식의 인스턴스로 이루어진 가변 크기 LIFO(후입선출) 방식의 컬렉션을 나타냅니다.
     
+__- 구조체__
 
+구조체
+> __- Dictionary<TKey,TValue>.Enumerator__
+> 
+> Dictionary<TKey,TValue>의 요소를 열거합니다.
+
+> Dictionary<TKey,TValue>.KeyCollection.Enumerator
+> Dictionary<TKey,TValue>.KeyCollection의 요소를 열거합니다.
+> Dictionary<TKey,TValue>.ValueCollection.Enumerator
+> Dictionary<TKey,TValue>.ValueCollection의 요소를 열거합니다.
+> HashSet<T>.Enumerator
+> HashSet<T> 개체의 요소를 열거합니다.
+> KeyValuePair<TKey,TValue>
+> 설정하거나 검색할 수 있는 키/값 쌍을 정의합니다.
+> LinkedList<T>.Enumerator
+> LinkedList<T>의 요소를 열거합니다.
+> List<T>.Enumerator
+> List<T>의 요소를 열거합니다.
+> Queue<T>.Enumerator
+> Queue<T>의 요소를 열거합니다.
+> SortedDictionary<TKey,TValue>.Enumerator
+> SortedDictionary<TKey,TValue>의 요소를 열거합니다.
+> SortedDictionary<TKey,TValue>.KeyCollection.Enumerator
+> SortedDictionary<TKey,TValue>.KeyCollection의 요소를 열거합니다.
+> SortedDictionary<TKey,TValue>.ValueCollection.Enumerator
+> SortedDictionary<TKey,TValue>.ValueCollection의 요소를 열거합니다.
+> SortedSet<T>.Enumerator
+> SortedSet<T> 개체의 요소를 열거합니다.
+> Stack<T>.Enumerator
+> Stack<T>의 요소를 열거합니다.
