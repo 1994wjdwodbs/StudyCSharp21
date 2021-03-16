@@ -133,64 +133,64 @@ System.Collections.Generic 네임스페이스에는 몇 가지 제네릭 기반 
 
 __- 클래스__
 
-- CollectionExtensions
+- CollectionExtensions</br>
 제네릭 컬렉션에 대한 확장 메서드를 제공합니다.
 
-- Comparer<T>
+- Comparer<T></br>
 IComparer<T> 제네릭 인터페이스의 구현에 대한 기본 클래스를 제공합니다.
     
-- Dictionary<TKey,TValue>.KeyCollection
+- Dictionary<TKey,TValue>.KeyCollection</br>
 Dictionary<TKey,TValue>의 키 컬렉션을 나타냅니다. 이 클래스는 상속될 수 없습니다.
 
-- Dictionary<TKey,TValue>.ValueCollection
+- Dictionary<TKey,TValue>.ValueCollection</br>
 Dictionary<TKey,TValue>의 값 컬렉션을 나타냅니다. 이 클래스는 상속될 수 없습니다.
 
-- Dictionary<TKey,TValue>
+- Dictionary<TKey,TValue></br>
 키와 값의 컬렉션을 나타냅니다.
 
-- EqualityComparer<T>
+- EqualityComparer<T></br>
 IEqualityComparer<T> 제네릭 인터페이스의 구현에 대한 기본 클래스를 제공합니다.
     
-- HashSet<T>
+- HashSet<T></br>
 값 집합을 나타냅니다.
     
-- KeyNotFoundException
+- KeyNotFoundException</br>
 컬렉션의 요소에 액세스하기 위해 지정한 키가 컬렉션의 키와 일치하지 않으면 예외가 throw됩니다.
 
-- KeyValuePair
+- KeyValuePair</br>
 KeyValuePair<TKey,TValue> 구조체의 인스턴스를 만듭니다.
 
-- LinkedList<T>
+- LinkedList<T></br>
 이중 연결 목록을 나타냅니다.
     
-- LinkedListNode<T>
+- LinkedListNode<T></br>
 LinkedList<T>의 노드를 나타냅니다. 이 클래스는 상속될 수 없습니다.
     
-- List<T>
+- List<T></br>
 인덱스로 액세스할 수 있는 강력한 형식의 개체 목록을 나타냅니다. 목록의 검색, 정렬 및 조작에 사용할 수 있는 메서드를 제공합니다.
     
-- Queue<T>
+- Queue<T></br>
 개체의 선입선출(FIFO) 컬렉션을 나타냅니다.
     
-- ReferenceEqualityComparer
+- ReferenceEqualityComparer</br>
 두 개의 개체 인스턴스를 비교할 때 값 동등성(Equals(Object)) 대신 참조 동등성(ReferenceEquals(Object, Object))을 사용하는 IEqualityComparer<T>입니다.
     
-- SortedDictionary<TKey,TValue>.KeyCollection
+- SortedDictionary<TKey,TValue>.KeyCollection</br>
 SortedDictionary<TKey,TValue>의 키 컬렉션을 나타냅니다. 이 클래스는 상속될 수 없습니다.
 
-- SortedDictionary<TKey,TValue>.ValueCollection
+- SortedDictionary<TKey,TValue>.ValueCollection</br>
 SortedDictionary<TKey,TValue>의 값 컬렉션을 나타냅니다. 이 클래스는 상속될 수 없습니다.
 
-- SortedDictionary<TKey,TValue>
+- SortedDictionary<TKey,TValue></br>
 키에 따라 정렬된 키/값 쌍의 컬렉션을 나타냅니다.
 
-- SortedList<TKey,TValue>
+- SortedList<TKey,TValue></br>
 연관된 IComparer<T> 구현을 기반으로 키에 따라 정렬된 키/값 쌍의 컬렉션을 나타냅니다.
     
-- SortedSet<T>
+- SortedSet<T></br>
 정렬된 순서대로 유지 관리되는 개체의 컬렉션을 나타냅니다.
     
-- Stack<T>
+- Stack<T></br>
 지정한 동일 형식의 인스턴스로 이루어진 가변 크기 LIFO(후입선출) 방식의 컬렉션을 나타냅니다.
     
 
