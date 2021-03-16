@@ -196,31 +196,40 @@ __- 클래스__
 __- 구조체__
 
 구조체
-> __- Dictionary<TKey,TValue>.Enumerator__
-> 
+> __- Dictionary<TKey,TValue>.Enumerator__</br>
 > Dictionary<TKey,TValue>의 요소를 열거합니다.
 
-> Dictionary<TKey,TValue>.KeyCollection.Enumerator
+> __- Dictionary<TKey,TValue>.KeyCollection.Enumerator__</br>
 > Dictionary<TKey,TValue>.KeyCollection의 요소를 열거합니다.
-> Dictionary<TKey,TValue>.ValueCollection.Enumerator
+> __- Dictionary<TKey,TValue>.ValueCollection.Enumerator__</br>
 > Dictionary<TKey,TValue>.ValueCollection의 요소를 열거합니다.
-> HashSet<T>.Enumerator
+
+> __- HashSet<T>.Enumerator__</br>
 > HashSet<T> 개체의 요소를 열거합니다.
-> KeyValuePair<TKey,TValue>
+
+> __- KeyValuePair<TKey,TValue>__</br>
 > 설정하거나 검색할 수 있는 키/값 쌍을 정의합니다.
-> LinkedList<T>.Enumerator
+
+> __- LinkedList<T>.Enumerator__</br>
 > LinkedList<T>의 요소를 열거합니다.
-> List<T>.Enumerator
+
+> __- List<T>.Enumerator__</br>
 > List<T>의 요소를 열거합니다.
-> Queue<T>.Enumerator
+
+> __- Queue<T>.Enumerator__</br>
 > Queue<T>의 요소를 열거합니다.
-> SortedDictionary<TKey,TValue>.Enumerator
+
+> __- SortedDictionary<TKey,TValue>.Enumerator__</br>
 > SortedDictionary<TKey,TValue>의 요소를 열거합니다.
-> SortedDictionary<TKey,TValue>.KeyCollection.Enumerator
+
+> __- SortedDictionary<TKey,TValue>.KeyCollection.Enumerator__</br>
 > SortedDictionary<TKey,TValue>.KeyCollection의 요소를 열거합니다.
-> SortedDictionary<TKey,TValue>.ValueCollection.Enumerator
+
+> __- SortedDictionary<TKey,TValue>.ValueCollection.Enumerator__</br>
 > SortedDictionary<TKey,TValue>.ValueCollection의 요소를 열거합니다.
-> SortedSet<T>.Enumerator
+
+> __- SortedSet<T>.Enumerator__</br>
 > SortedSet<T> 개체의 요소를 열거합니다.
-> Stack<T>.Enumerator
+
+> __- Stack<T>.Enumerator__</br>
 > Stack<T>의 요소를 열거합니다.
