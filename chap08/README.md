@@ -73,3 +73,4 @@ class ListEntry: ICloneable, IComparable
 }
 ```
 
+[이전](https://github.com/1994wjdwodbs/StudyCSharp21)
