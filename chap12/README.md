@@ -48,3 +48,6 @@ throw_statement
 해당 기본 클래스로 System.Exception 또는 하위 클래스가 있는 형식 매개 변수 형식의 System.Exception값을 나타내야 합니다.</br>
 식의 평가가 null생성 되는 경우 System.NullReferenceException 대신 throw 됩니다.</br>
 식이 없는 throw 문은 catch 블록 에서만 사용할 수 있습니다 .이 경우 해당 문은 해당 catch 블록에 의해 현재 처리 되 고 있는 예외를 다시 throw 합니다.
+
+
+[이전](https://github.com/1994wjdwodbs/StudyCSharp21)
