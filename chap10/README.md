@@ -43,6 +43,71 @@ class TestGenericList
 System.Collections.Generic 네임스페이스에는 몇 가지 제네릭 기반 컬렉션 클래스가 있습니다.</br>
 (ArrayList와 같은 제네릭이 아닌 컬렉션은 권장되지 않으며 호환성을 위해 유지 관리됩니다.)
 
+물론, 사용자 지정 제네릭 형식 및 메서드를 만들어 형식이 안전하고 효율적인 일반화된 솔루션 및 디자인 패턴을 직접 제공할 수도 있습니다.</br>
+다음 코드 예제에서는 데모용으로 간단한 제네릭 연결된 목록 클래스를 보여 줍니다.</br>
+(대부분의 경우 직접 만드는 대신 .NET에서 제공하는 List<T> 클래스를 사용해야 합니다.) 
+
+```csharp
+// 제너릭 사용 예시
+public class GenericList<T>
+{
+    // The nested class is also generic on T.
+    private class Node
+    {
+        // T used in non-generic constructor.
+        public Node(T t)
+        {
+            next = null;
+            data = t;
+        }
+
+        private Node next;
+        public Node Next
+        {
+            get { return next; }
+            set { next = value; }
+        }
+
+        // T as private member data type.
+        private T data;
+
+        // T as return type of property.
+        public T Data
+        {
+            get { return data; }
+            set { data = value; }
+        }
+    }
+
+    private Node head;
+
+    // constructor
+    public GenericList()
+    {
+        head = null;
+    }
+
+    // T as method parameter type:
+    public void AddHead(T t)
+    {
+        Node n = new Node(t);
+        n.Next = head;
+        head = n;
+    }
+
+    public IEnumerator<T> GetEnumerator()
+    {
+        Node current = head;
+
+        while (current != null)
+        {
+            yield return current.Data;
+            current = current.Next;
+        }
+    }
+}
+```
+
 __- 제너릭 개요__
 
 > 제네릭 형식을 사용하여 코드 재사용, 형식 안전성 및 성능을 최대화합니다.</br>
