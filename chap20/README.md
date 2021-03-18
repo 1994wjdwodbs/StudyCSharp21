@@ -1,9 +1,14 @@
 # C# 추가 학습
 
-microsoft C# 가이드, 닷넷정복(책)을 참고하였습니다.</br>
-(https://docs.microsoft.com/ko-kr/dotnet/csharp/ , http://soen.kr/)
+위키피디아, 닷넷정복(책)을 참고하였습니다.</br>
+(https://ko.wikipedia.org/wiki/%EC%9C%88%EB%8F%84%EC%9A%B0_%ED%8F%BC , http://soen.kr/)
 
 ## 윈폼(WinForm)
+윈도우 폼(Windows Forms, WinForms)은 현존하는 윈도우 API를 관리 코드로 래핑(wrapping)함으로써</br>
+순수 마이크로소프트 윈도우 인터페이스 요소로의 접근성을 제공하는 마이크로소프트 닷넷 프레임워크의 일부로서 포함된 API에 주어지는 이름이다.</br>
+초기의 더 복잡한 C++ 기반 마이크로소프트 파운데이션 클래스(MFC) 라이브러리를 대체하는 것으로 볼 수 있으나,</br>
+모델-뷰-컨트롤러와 상응하는 패러다임을 제공하지는 않는다. 일부 3사 라이브러리가 이 기능을 제공하고 있다.</br>
+이들 가운데 가장 널리 쓰이는 것으로는 사용자 인터페이스 프로세스 응용 프로그램 블록이 있다.
 
 
 [이전](https://github.com/1994wjdwodbs/StudyCSharp21)
